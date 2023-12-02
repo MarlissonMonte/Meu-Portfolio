@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(29, 9, 61,255);
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    
+}
+.cabecalho__conteudo__link{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(203, 255, 255);
+    text-decoration: none;
+
+}
+.cabecalho__conteudo{
+    display: flex;
+    padding: 2% 0% 0% 10%;
+    gap: 5%;
+}
+.titulo-destaque {
+    color: rgb(251, 131, 255);
+    width: 616;
+    font-family: 'Crimson Pro', serif;
+    
+}
+
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 9px;
+    
+}
+.apresentacao__titulo{
+    font-size: 2.25rem;
+    font-family: DejaVu Sans Mono, monospace;
+    color: cyan;
+    
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+.apresentacao__links__viw{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 3px groove #cd5bba;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 2px cyan,
+    0 0 3px cyan; 
+    width: 130px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.125rem;
+    padding: 5px 25px;
+    text-decoration: none;
+    
+}
+.apresentacao__links__viw:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 2px cyan, 0 0 3px cyan,
+    0 0 4px cyan, 0 0 15px cyan;
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.apresentacao__titulo__redes{
+    font-size: 0.93rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*@media (max-width: 1200px){
+
+}/* // usamos o "@media" para condicionar a resposividade a partir de alfhum tamanho
