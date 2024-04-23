@@ -2,7 +2,7 @@
 
 var element = document.querySelector("#text");
 var text = "Hello world, Sou Marlisson!";
-var interval = 200;
+var interval = 160;
 
 function showText(element, text, interval) {
   var _char = text.split("").reverse();

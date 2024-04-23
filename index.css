@@ -9,6 +9,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     padding: 5px;
+    border: none;
     
 }
 .bg-gradient {
@@ -111,5 +112,8 @@ body {
 }
 .apresentacao__links__curriculo__Marlisson{
     color: white;
+}
+footer{
+    background-color: #1c0f23;
 }
 

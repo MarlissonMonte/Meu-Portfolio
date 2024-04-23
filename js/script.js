@@ -1,6 +1,6 @@
 const element = document.querySelector("#text");
 const text = "Hello world, Sou Marlisson!"
-const interval = 200;
+const interval = 160;
 
 function showText(element, text, interval){
 
