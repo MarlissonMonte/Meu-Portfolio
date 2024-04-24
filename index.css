@@ -38,7 +38,7 @@ body {
 .titulo-destaque {
     color: rgb(251, 131, 255);
     width: 616;
-    font-family: 'Crimson Pro', serif;
+    font-family: "Chakra Petch", sans-serif;
     
 }
 
@@ -52,13 +52,13 @@ body {
 }
 .apresentacao__conteudo{
     font-size: 0.82rem;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: "Inter", sans-serif;
     color: cyan;
     margin-top: 36px;
 }
 .apresentacao__conteudo__texto{
     font-size: 0.9rem;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: "Inter", sans-serif;
     color: cyan;
 }
 .apresentacao__titulo{
