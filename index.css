@@ -25,7 +25,7 @@ body {
     margin: 0 30px;
 }
 .cabecalho__conteudo__link img {
-    margin-right: 6px;
+    margin-right: 3px;
 }
 
 .cabecalho__conteudo{
@@ -43,7 +43,7 @@ body {
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    margin: 5% 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,7 +62,7 @@ body {
     color: cyan;
 }
 .apresentacao__titulo{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: DejaVu Sans Mono, monospace;
     color: cyan;
     
@@ -83,13 +83,14 @@ body {
     color: rgb(255, 255, 255);
     box-shadow: 0 0 2px cyan,
     0 0 3px cyan; 
-    height: 43px;
-    width: 120px;
+    height: 44px;
+    width: 130px;
     text-align: center;
     border-radius: 6px;
     font-size: 0.9rem;
     padding: 10px 12px;
     text-decoration: none;
+    margin-top: 30px;
     
 }
 .apresentacao__links__view:hover{
@@ -118,3 +119,73 @@ footer{
     background-color: #13202e
 }
 
+@media screen and (max-width: 1005px) {
+         /*Nav*/
+    .cabecalho__conteudo{
+        justify-content: center;
+    }
+        /*Geral*/
+    .apresentacao{
+        flex-direction: column;
+    }
+    .img_principal img{
+        width: 350px;
+    }
+    .apresentacao__links{
+        gap: 36px;
+        margin: 10%;
+        margin-top: 3px;
+        margin-bottom: 8px;
+    }
+    .apresentacao__conteudo{
+        align-items: center;
+    }
+    .apresentacao__titulo{
+        font-size: 1.3rem;
+    }
+    .apresentacao__conteudo{
+        margin-bottom: 3px;
+    }
+    .meu__rodape{
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 500px){
+
+.cabecalho__conteudo__link{
+    font-size: 0.8rem;
+}
+.img_principal img{
+    width: 300px;
+}
+
+}
+@media screen and (max-width: 380px) {
+    .apresentacao__titulo{
+        font-size: 0.9rem;
+    }
+    .titulo-destaque{
+        font-size: 1rem;
+    }
+    .apresentacao__conteudo{
+        font-size: 0.7rem;
+    }
+    .apresentacao__links{
+        gap: 1px;
+        width: 15px;
+        height: 15px;
+        color: transparent;
+        font-size: 0.2rem;
+        flex-direction: column;
+        align-self: center;
+        margin-bottom: 80px;
+    }
+    .img_principal img{
+        width: 220px;
+    }
+    .cabecalho__conteudo{
+        justify-content: center;
+    }
+
+}
