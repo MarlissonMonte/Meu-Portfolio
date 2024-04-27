@@ -51,7 +51,7 @@ body {
     
 }
 .apresentacao__conteudo{
-    font-size: 0.82rem;
+    font-size: 0.9rem;
     font-family: "Inter", sans-serif;
     color: cyan;
     
@@ -128,15 +128,18 @@ footer{
     .apresentacao{
         flex-direction: column;
     }
+        /*Imagem principal*/
     .img_principal img{
-        width: 350px;
+        width: 380px;
     }
+        /*Botoes Git e Likd*/
     .apresentacao__links{
-        gap: 36px;
+        gap: 40px;
         margin: 10%;
         margin-top: 3px;
         margin-bottom: 8px;
     }
+        /*letra com script de digitaçao*/
     .apresentacao__conteudo{
         align-items: center;
     }
@@ -149,7 +152,11 @@ footer{
     .meu__rodape{
         align-items: center;
     }
-
+    .apresentacao__conteudo{
+        font-size: 1.2rem;
+        font-family: DejaVu Sans Mono, monospace;
+        
+    }
 }
 @media screen and (max-width: 500px){
 
@@ -159,6 +166,12 @@ footer{
 .img_principal img{
     width: 300px;
 }
+.apresentacao__conteudo{
+    font-size: 1.1rem;
+    font-family: DejaVu Sans Mono, monospace;
+    
+}
+
 
 }
 @media screen and (max-width: 380px) {
@@ -186,6 +199,11 @@ footer{
     }
     .cabecalho__conteudo{
         justify-content: center;
+    }
+    .apresentacao__conteudo{
+        font-size: 1rem;
+        font-family: DejaVu Sans Mono, monospace;
+        
     }
 
 }
