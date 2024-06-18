@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+PL:wght@100..400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,14 @@ body {
 }
 .bg-gradient {
     background: linear-gradient(to bottom, #1a1839, #1a2a3b);
+}
+.titulo__sobremim{
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.apresentacao__conteudo__texto__sobremim{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .cabecalho__conteudo__link{
@@ -35,10 +44,11 @@ body {
     align-items: center; 
     padding: 16px;
 }
+
 .titulo-destaque {
     color: rgb(251, 131, 255);
     width: 616;
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Oswald", sans-serif;
     
 }
 
@@ -51,8 +61,8 @@ body {
     
 }
 .apresentacao__conteudo{
-    font-size: 0.9rem;
-    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-family: 'Inter',sans-serif;
     color: cyan;
     
 }
@@ -127,6 +137,9 @@ footer{
     .cabecalho__conteudo{
         justify-content: center;
     }
+    .cabecalho__conteudo__link img{
+        display: none;
+    }
         /*Geral*/
     .apresentacao{
         flex-direction: column;
@@ -157,32 +170,44 @@ footer{
     }
     .apresentacao__conteudo{
         font-size: 1.2rem;
-        font-family: DejaVu Sans Mono, monospace;
         
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
 
 .cabecalho__conteudo__link{
     font-size: 0.8rem;
 }
+.cabecalho__conteudo__link img{
+    width: 30px;
+    height: 28px;
+}
 .img_principal img{
-    width: 320px;
+    display: none;
 }
 .apresentacao__conteudo{
     font-size: 1.1rem;
-    font-family: DejaVu Sans Mono, monospace;
     
+}
+.apresentacao__links{
+    gap: 1px;
+    width: 15px;
+    height: 15px;
+    color: transparent;
+    font-size: 0.2rem;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 80px;
 }
 
 
 }
 @media screen and (max-width: 380px) {
     .apresentacao__titulo{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     .titulo-destaque{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .apresentacao__conteudo{
         font-size: 0.7rem;
@@ -206,7 +231,6 @@ footer{
     }
     .apresentacao__conteudo{
         font-size: 1rem;
-        font-family: DejaVu Sans Mono, monospace;
         
     }
 
